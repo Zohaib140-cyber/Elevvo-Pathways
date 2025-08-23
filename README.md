@@ -76,7 +76,7 @@ Typical libraries used:
 ✔️ Stronger storytelling with data  
 
 ### 🔍 Preview of Task 2 Visuals  
-*(Add your exported graphs into the repo under a `/images` folder and update paths below)*  
+
 
 <Figure size 1000x600 with 1 Axes><img width="847" height="545" alt="image" src="https://github.com/user-attachments/assets/8918868e-10d9-4817-8bde-c99840ce1ebc" />
  
