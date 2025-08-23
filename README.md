@@ -78,9 +78,10 @@ Typical libraries used:
 ### 🔍 Preview of Task 2 Visuals  
 *(Add your exported graphs into the repo under a `/images` folder and update paths below)*  
 
-![Task 2 Graph 1](images/task2_graph1.png)  
-![Task 2 Graph 2](images/task2_graph2.png)  
-![Task 2 Graph 3](images/task2_graph3.png)  
+<Figure size 1000x600 with 1 Axes><img width="847" height="545" alt="image" src="https://github.com/user-attachments/assets/8918868e-10d9-4817-8bde-c99840ce1ebc" />
+ 
+<Figure size 1000x600 with 1 Axes><img width="870" height="545" alt="image" src="https://github.com/user-attachments/assets/d024506d-2320-4a70-a0f9-4ed5c6e36aa4" />
+
 
 ---
 
