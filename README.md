@@ -1,92 +1,127 @@
 # 📊 Elevvo Pathways  
 
 ## 📌 Overview  
-This repository contains my solutions for the **Elevvo Pathways program**.  
-Each task focuses on applying **data analysis techniques** in Python to extract insights, visualize patterns, and present findings in a professional workflow.  
+This repository contains my solutions for the **Elevvo Pathways** program.  
+Each task demonstrates the application of **Python for data analysis**, combining data cleaning, visualization, statistical modeling, and storytelling to extract actionable insights.  
 
 ---
 
 ## 🗂️ Files Included  
-- `Task 1.ipynb` → Jupyter Notebook with Task 1 solution  
-- `Task_02_Final_Aligned.ipynb` → **Final polished version of Task 2** (with graphs integrated)  
+- `Task_01.ipynb` → Data cleaning, preprocessing, and Exploratory Data Analysis (EDA)  
+- `Task_02_Final_Aligned.ipynb` → Advanced analysis with polished visual storytelling  
+- `Task_07_TimeSeries.ipynb` → Time Series Analysis of retail sales (trends, moving averages, decomposition, forecasting)  
 - `requirements.txt` → List of Python libraries required to run the notebooks  
 - `README.md` → Documentation for the repository  
 
 ---
 
 ## ⚙️ Requirements  
-To run the notebooks, install the dependencies with:  
+To run the notebooks, first install the dependencies:  
 
 ```bash
 pip install -r requirements.txt
-```  
+Libraries Used
 
-Typical libraries used:  
-- pandas  
-- numpy  
-- matplotlib / seaborn / plotly  
-- scikit-learn  
+pandas / numpy → data handling and numerical operations
 
----
+matplotlib / seaborn / plotly → data visualization, static and interactive
 
-## 🚀 How to Run  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Zohaib140-cyber/Elevvo-Pathways.git
-   ```  
-2. Navigate to the project folder:  
-   ```bash
-   cd Elevvo-Pathways
-   ```  
-3. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-4. Open a notebook:  
-   ```bash
-   jupyter notebook "Task_02_Final_Aligned.ipynb"
-   ```  
+scikit-learn → machine learning utilities
 
----
+statsmodels → time series decomposition and forecasting
 
-## 📌 Task 1 – Data Analysis & Visualization  
-**Objective:**  
-- Perform **data cleaning & preprocessing**  
-- Conduct **Exploratory Data Analysis (EDA)**  
-- Create **visualizations** to understand patterns  
-- Derive **insights and conclusions**  
+🚀 How to Run
 
-**Outcome:**  
-✔️ Strong foundation in handling datasets  
-✔️ Structured problem-solving workflow  
-✔️ Clear data-driven insights  
+Clone the repository
 
----
-
-## 📌 Task 2 – Advanced Analysis with Polished Workflow  
-**Objective:**  
-- Perform detailed **data analysis**  
-- Create and integrate **graphs for visual storytelling**  
-- Structure the notebook for **professional readability**  
-- Communicate insights clearly with code + visuals  
-
-**Outcome:**  
-✔️ Improved data visualization skills  
-✔️ Polished notebook presentation  
-✔️ Stronger storytelling with data  
-
-### 🔍 Preview of Task 2 Visuals  
+git clone https://github.com/Zohaib140-cyber/Elevvo-Pathways.git
 
 
-<Figure size 1000x600 with 1 Axes><img width="847" height="545" alt="image" src="https://github.com/user-attachments/assets/8918868e-10d9-4817-8bde-c99840ce1ebc" />
- 
-<Figure size 1000x600 with 1 Axes><img width="870" height="545" alt="image" src="https://github.com/user-attachments/assets/d024506d-2320-4a70-a0f9-4ed5c6e36aa4" />
+Navigate into the project folder
+
+cd Elevvo-Pathways
 
 
----
+Install dependencies
 
-## 🏆 Key Skills Demonstrated  
-✔️ Python for data analysis  
-✔️ Data visualization (Matplotlib, Seaborn, Plotly)  
-✔️ Exploratory Data Analysis (EDA)  
-✔️ Clear documentation and presentation of insights  
+pip install -r requirements.txt
+
+
+Launch Jupyter Notebook
+
+jupyter notebook
+
+
+Open any task notebook (e.g., Task 07 for time series forecasting)
+
+📌 Task Highlights
+Task 1 – Data Analysis & Visualization
+
+🔗 View in nbviewer
+ | Run in Colab
+
+Objective:
+
+Clean raw datasets and prepare them for analysis
+
+Conduct Exploratory Data Analysis (EDA)
+
+Create insightful visualizations to uncover trends and patterns
+
+Summarize findings in a structured, data-driven way
+
+Outcome:
+✔️ Solid foundation in preprocessing and wrangling data
+✔️ Ability to uncover hidden insights through visuals
+✔️ Established workflow for structured problem-solving
+
+Task 2 – Advanced Analysis with Polished Workflow
+
+🔗 View in nbviewer
+ | Run in Colab
+
+Objective:
+
+Perform detailed analysis with professional formatting
+
+Integrate multiple types of visualizations (bar plots, heatmaps, scatter plots)
+
+Enhance notebook readability with clear markdown explanations
+
+Communicate insights effectively by blending code + visuals
+
+Outcome:
+✔️ Elevated storytelling through data
+✔️ Professional-quality notebook formatting
+✔️ Deeper analytical reasoning
+
+Task 7 – Time Series Sales Analysis
+
+🔗 View in nbviewer
+ | Run in Colab
+
+Objective:
+
+Analyze multi-year retail sales data (2015–2022)
+
+Identify overall trends and seasonal patterns
+
+Use moving averages to smooth fluctuations
+
+Decompose time series into trend, seasonality, and residuals
+
+Forecast future sales using Holt-Winters / exponential smoothing
+
+Outcome:
+✔️ Practical exposure to time series methods
+✔️ Forecasting skills applicable to real-world retail/business contexts
+✔️ End-to-end analysis workflow: from raw data to prediction
+✔️ Stronger ability to connect statistical outputs with business decisions
+
+🏆 Key Skills Demonstrated
+
+✔️ Data Cleaning & Preprocessing
+✔️ Exploratory Data Analysis (EDA)
+✔️ Data Visualization (Matplotlib, Seaborn, Plotly)
+✔️ Time Series Analysis & Forecasting
+✔️ Professional Documentation & Storytelling
