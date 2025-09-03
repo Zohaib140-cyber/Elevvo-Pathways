@@ -1,25 +1,27 @@
-# 📊 Elevvo Pathways  
+📊 Elevvo Pathways
+📌 Overview
 
-## 📌 Overview  
-This repository contains my solutions for the **Elevvo Pathways** program.  
-Each task demonstrates the application of **Python for data analysis**, combining data cleaning, visualization, statistical modeling, and storytelling to extract actionable insights.  
+This repository contains my solutions for the Elevvo Pathways program.
+Each task demonstrates the application of Python for data analysis, combining data cleaning, visualization, statistical modeling, and storytelling to extract actionable insights.
 
----
+🗂️ Files Included
 
-## 🗂️ Files Included  
-- `Task_01.ipynb` → Data cleaning, preprocessing, and Exploratory Data Analysis (EDA)  
-- `Task_02_Final_Aligned.ipynb` → Advanced analysis with polished visual storytelling  
-- `Task_07_TimeSeries.ipynb` → Time Series Analysis of retail sales (trends, moving averages, decomposition, forecasting)  
-- `requirements.txt` → List of Python libraries required to run the notebooks  
-- `README.md` → Documentation for the repository  
+Task_01.ipynb → Data cleaning, preprocessing, and Exploratory Data Analysis (EDA)
 
----
+Task_02_Final_Aligned.ipynb → Advanced analysis with polished visual storytelling
 
-## ⚙️ Requirements  
-To run the notebooks, first install the dependencies:  
+Task_06_WebScraping.ipynb → Web Scraping & Analysis of Job Postings (skills, demand, and visualization)
 
-```bash
+requirements.txt → List of Python libraries required to run the notebooks
+
+README.md → Documentation for the repository
+
+⚙️ Requirements
+
+To run the notebooks, first install the dependencies:
+
 pip install -r requirements.txt
+
 Libraries Used
 
 pandas / numpy → data handling and numerical operations
@@ -28,7 +30,7 @@ matplotlib / seaborn / plotly → data visualization, static and interactive
 
 scikit-learn → machine learning utilities
 
-statsmodels → time series decomposition and forecasting
+BeautifulSoup4 / requests → web scraping and parsing HTML
 
 🚀 How to Run
 
@@ -52,13 +54,12 @@ Launch Jupyter Notebook
 jupyter notebook
 
 
-Open any task notebook (e.g., Task 07 for time series forecasting)
+Open any task notebook (e.g., Task 06 for web scraping).
 
 📌 Task Highlights
 Task 1 – Data Analysis & Visualization
 
-🔗 View in nbviewer
- | Run in Colab
+🔗 View in nbviewer | Run in Colab
 
 Objective:
 
@@ -77,8 +78,7 @@ Outcome:
 
 Task 2 – Advanced Analysis with Polished Workflow
 
-🔗 View in nbviewer
- | Run in Colab
+🔗 View in nbviewer | Run in Colab
 
 Objective:
 
@@ -95,33 +95,33 @@ Outcome:
 ✔️ Professional-quality notebook formatting
 ✔️ Deeper analytical reasoning
 
-Task 7 – Time Series Sales Analysis
+Task 4 – Web Scraping & Job Market Analysis
 
-🔗 View in nbviewer
- | Run in Colab
+🔗 View in nbviewer | Run in Colab
 
 Objective:
 
-Analyze multi-year retail sales data (2015–2022)
+Scrape job listings from a real/static website (simulated dataset for demo)
 
-Identify overall trends and seasonal patterns
+Extract job title, company, location, skills, and posted date
 
-Use moving averages to smooth fluctuations
+Clean and process textual job descriptions
 
-Decompose time series into trend, seasonality, and residuals
+Perform skill frequency analysis to identify top in-demand skills
 
-Forecast future sales using Holt-Winters / exponential smoothing
+Bonus: Visualize skills distribution by city
 
 Outcome:
-✔️ Practical exposure to time series methods
-✔️ Forecasting skills applicable to real-world retail/business contexts
-✔️ End-to-end analysis workflow: from raw data to prediction
-✔️ Stronger ability to connect statistical outputs with business decisions
+✔️ Hands-on experience with web scraping (BeautifulSoup)
+✔️ Text cleaning & preprocessing of unstructured data
+✔️ Skill demand analysis with frequency counts
+✔️ Clear visualizations of top skills and job trends
 
 🏆 Key Skills Demonstrated
 
 ✔️ Data Cleaning & Preprocessing
 ✔️ Exploratory Data Analysis (EDA)
 ✔️ Data Visualization (Matplotlib, Seaborn, Plotly)
-✔️ Time Series Analysis & Forecasting
+✔️ Web Scraping & Text Cleaning
+✔️ Skill Frequency Analysis
 ✔️ Professional Documentation & Storytelling
